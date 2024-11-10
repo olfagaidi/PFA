@@ -1,0 +1,119 @@
+.form-login {
+  max-width: 450px; /* Ajuster la largeur du formulaire */
+  margin: 0 auto;
+  padding: 0 ;
+  
+}
+
+.card-container {
+  padding: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-login-heading {
+  text-align: center;
+  margin: 0;
+  background-color: #4ECDC4; /* Couleur de fond de l'en-tête */
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.login-wrap {
+  padding: 20px; /* Réduire les marges internes pour plus de compacité */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Réduire l'espacement entre les lignes */
+}
+
+.col-6 {
+  flex: 0 0 48%;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px; /* Réduire l'espace entre le label et le champ */
+  font-weight: normal; /* Style léger pour correspondre à la photo 1 */
+  font-size: 13px;
+  color: #413e3e; /* Couleur douce pour les labels */
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px; /* Rendre les champs plus compacts */
+  font-size: 13px; /* Taille de police réduite */
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+  height: auto;
+}
+
+.form-control:focus {
+  border-color: #48bcb4; /* Couleur de bordure lorsque le champ est sélectionné */
+  outline: none; /* Retirer la bordure par défaut */
+}
+
+.form-control::placeholder {
+  color: #747679;
+}
+
+.form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 11px;
+  margin-top: 3px; /* Réduire l'espacement pour plus de compacité */
+}
+
+.btn {
+  background-color: #4ECDC4;
+  color: white;
+  border: none;
+  padding: 10px; /* Réduire la taille du bouton */
+  border-radius: 0 0 5px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.alert {
+  padding: 100px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.success {
+  position: relative;
+  text-align: center;
+  color: green;
+  margin-top: 200px;
+  max-width: 600px; /* Ajustez cette valeur selon vos besoins */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-danger{
+  color: #1e65cf;
+}

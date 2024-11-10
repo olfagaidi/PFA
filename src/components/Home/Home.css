@@ -1,0 +1,30 @@
+/* Home.css */
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  
+  height: calc(100vh - 70px); 
+}
+
+.text-section p {
+  font-size: 2em;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 200px; /* Ajustez la taille selon vos besoins */
+  height: auto;
+}
